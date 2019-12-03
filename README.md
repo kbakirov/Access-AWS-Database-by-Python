@@ -24,4 +24,5 @@
    - **Database name** (ebdb)
    - **Username**
    - **Password**
+   
 ### These configurations we are going to use to access our Database on Python.
