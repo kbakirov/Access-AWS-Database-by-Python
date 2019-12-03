@@ -7,8 +7,8 @@ This is going to done in 2 main steps.
 
  ![RDS](RDS.png)
 
-Then Button **Create database**. We will click on **Standard Create**.
-In this project we use **MySQL** engine.
+
+### Then Button **Create database**. We will click on **Standard Create** and choose **MySQL** engine.
 
  ![MySQL](MySQL.png)
 
@@ -18,14 +18,12 @@ In this project we use **MySQL** engine.
 
   ![Freetire](Freetire.png)
 
-### In **Settings** following properties are very essential:
+### In **Settings** following properties are very essential. These configurations we are going to use to access our Database on Python:
    - **Endpoint** (this is the hostname)
    - **Port** (by default 3306)
    - **Database name** (ebdb)
    - **Username**
    - **Password**
-
-### These configurations we are going to use to access our Database on Python.
 
 ## **2 step. Using Python(Jupyter Notebook)**
 
