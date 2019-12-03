@@ -7,20 +7,21 @@
 
  ![RDS](RDS.png)
 
- Then Button **Create database**. We will click on **Standard Create**. In   
- this project we use **MySQL** engine.
+### Then Button **Create database**. We will click on **Standard Create**.
+### In this project we use **MySQL** engine.
 
  ![MySQL](MySQL.png)
 
- **Edition** and **version** of MySQL we leave as default.
-  Very important to choose **Free tier** template.  
+### **Edition** and **version** of MySQL we leave as default.
+
+### Very important to choose **Free tier** template.  
 
   ![Freetire](Freetire.png)
 
-  In **Settings** part following properties are very essential:
+### In **Settings** following properties are very essential:
    - **Endpoint** (this is the hostname)
    - **Port** (by default 3306)
    - **Database name** (ebdb)
    - **Username**
    - **Password**
-   These configurations we are going to use to access our Database on Python.
+### These configurations we are going to use to access our Database on Python.
