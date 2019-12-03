@@ -45,3 +45,10 @@ mydb = mysql.connector.connect(
   database="MyFirstDB"
 )
 ```
+Then I have created table called **dsti_student** with two columns **name_of_student** and **surname**. Script below:
+
+```
+mycursor = mydb.cursor()
+
+mycursor.execute("CREATE TABLE dsti_student (name_of_student VARCHAR(255), surname VARCHAR(255))")
+```
