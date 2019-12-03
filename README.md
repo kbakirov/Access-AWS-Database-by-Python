@@ -24,5 +24,10 @@
    - **Database name** (ebdb)
    - **Username**
    - **Password**
-   
+
 ### These configurations we are going to use to access our Database on Python.
+
+## **2 step. Using Python(Jupyter Notebook)**
+
+In Jupyter Terminal we need to install:
+`conda install -c anaconda mysql-connector-python`
