@@ -32,3 +32,16 @@
 In Jupyter Terminal we need to install mysql-connector:
 
 `conda install -c anaconda mysql-connector-python`
+
+Then in our Jupyter Notebook we import my-sql-connector and write properties of Database:
+
+```
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="myfirstdb.cfzy1rhvscx0.us-east-1.rds.amazonaws.com",
+  user="admin",
+  passwd="123456789",
+  database="MyFirstDB"
+)
+```
