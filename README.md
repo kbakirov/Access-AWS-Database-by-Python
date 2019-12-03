@@ -29,5 +29,6 @@
 
 ## **2 step. Using Python(Jupyter Notebook)**
 
-In Jupyter Terminal we need to install:
+In Jupyter Terminal we need to install mysql-connector:
+
 `conda install -c anaconda mysql-connector-python`
