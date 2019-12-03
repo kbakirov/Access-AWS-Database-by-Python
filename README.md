@@ -33,7 +33,7 @@ In Jupyter Terminal we need to install mysql-connector:
 
 `conda install -c anaconda mysql-connector-python`
 
-Then in our Jupyter Notebook we import my-sql-connector and write properties of Database:
+Then in our Jupyter Notebook we import my-sql-connector and set properties of Database:
 
 ```
 import mysql.connector
@@ -52,3 +52,29 @@ mycursor = mydb.cursor()
 
 mycursor.execute("CREATE TABLE dsti_student (name_of_student VARCHAR(255), surname VARCHAR(255))")
 ```
+
+Next step is to insert data in this table:
+
+```
+sql = "INSERT INTO dsti_student (name_of_student, surname) VALUES (%s, %s)"
+val = ("Kuanysh", "Bakirov")
+
+mycursor.execute(sql, val)
+
+mydb.commit()
+```
+
+Last step is to display values of table **dsti_student**:
+
+```
+mycursor.execute("SELECT * FROM dsti_student")
+
+myresult = mycursor.fetchall()
+
+for x in myresult:
+  print(x)
+```
+
+## And we have printed values of our table
+
+![Jupyter](Jupyter.png)
