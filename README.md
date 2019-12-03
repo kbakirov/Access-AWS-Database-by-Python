@@ -73,6 +73,6 @@ for x in myresult:
   print(x)
 ```
 
-## And we have printed values of our table
+## Job is done! We have printed values of our table
 
 ![Jupyter](Jupyter.png)
