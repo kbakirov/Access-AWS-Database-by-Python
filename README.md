@@ -1,14 +1,14 @@
 # Access AWS Database by Python
- In this project we are going to write script on Python to access, create table and print values.
- This is going to done in 2 main steps.
+In this project we are going to use Python to access, create table and print values.
+This is going to done in 2 main steps.
 
 ## **1 step. Creating Database on AWS**
- We choose RDS *(Relational Database Service)* on Services Menu
+ We choose RDS *(Relational Database Service)* in Services page
 
  ![RDS](RDS.png)
 
-### Then Button **Create database**. We will click on **Standard Create**.
-### In this project we use **MySQL** engine.
+Then Button **Create database**. We will click on **Standard Create**.
+In this project we use **MySQL** engine.
 
  ![MySQL](MySQL.png)
 
