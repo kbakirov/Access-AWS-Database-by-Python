@@ -51,7 +51,7 @@ mycursor = mydb.cursor()
 mycursor.execute("CREATE TABLE dsti_student (name_of_student VARCHAR(255), surname VARCHAR(255))")
 ```
 
-Next step is to insert data in this table:
+Next step is to insert data in this table dsti_student:
 
 ```
 sql = "INSERT INTO dsti_student (name_of_student, surname) VALUES (%s, %s)"
