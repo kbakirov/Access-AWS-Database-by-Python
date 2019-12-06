@@ -25,7 +25,7 @@ This is going to done in 2 main steps.
    - **Username**
    - **Password**
 
-## **2 step. Using Python(Jupyter Notebook)**
+## **2 step. Using Python(Jupyter Notebook) to access DB**
 
 In Jupyter Terminal we need to install mysql-connector:
 
